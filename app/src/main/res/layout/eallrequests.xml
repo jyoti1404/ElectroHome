@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:id="@+id/cust_name"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile No: "
+        android:id="@+id/cust_mobile"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:textSize="14dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Town: "
+        android:id="@+id/cust_town"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:textSize="14dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="State: "
+        android:id="@+id/cust_state"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:textSize="14dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Street: "
+        android:id="@+id/cust_street"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:textSize="14dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pincode: "
+        android:id="@+id/cust_pincode"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:textSize="14dp"/>
+
+</LinearLayout>

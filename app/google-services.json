@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "433246532793",
+    "firebase_url": "https://electrician-dded4.firebaseio.com",
+    "project_id": "electrician-dded4",
+    "storage_bucket": "electrician-dded4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433246532793:android:7c82bd0cd7ceddfc",
+        "android_client_info": {
+          "package_name": "com.example.hp.electrician"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433246532793-kprpoa500uuq4dkj8g1fnm8eh5cnrhqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.electrician",
+            "certificate_hash": "65a3052efce7c19b9e15957b2387e4ef5b81e535"
+          }
+        },
+        {
+          "client_id": "433246532793-dvqe8oshqmlmu8e9psktt0r0akbe53df.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUhftWW7gL7xg9meB_Dj_7g-wr1Stka5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433246532793-dvqe8oshqmlmu8e9psktt0r0akbe53df.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

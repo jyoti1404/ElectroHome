@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_open_with_black_24dp"
+        app:showAsAction="always"
+        android:title="">
+
+        <menu>
+
+            <item android:id="@+id/menu_profile"
+                android:title="View Profile"
+                android:icon="@drawable/ic_edit_black_24dp"
+                app:showAsAction="ifRoom">
+            </item>
+
+            <!--<item android:id="@+id/menu_cpassword"-->
+                <!--android:title="Change Password"-->
+                <!--android:icon="@drawable/ic_lock_outline_black_24dp"-->
+                <!--app:showAsAction="ifRoom">-->
+
+            <!--</item>-->
+            <item android:id="@+id/view_orders"
+                android:title="View Orders"
+                android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+                app:showAsAction="ifRoom">
+            </item>
+
+            <item
+                android:id="@+id/menu_aboutus"
+                android:title="About Us"
+                android:icon="@drawable/ic_person_outline_black_24dp"
+                app:showAsAction="ifRoom">
+
+            </item>
+
+            <item android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/ic_all_out_black_24dp"
+                app:showAsAction="ifRoom">
+            </item>
+
+
+        </menu>
+
+    </item>
+
+</menu>

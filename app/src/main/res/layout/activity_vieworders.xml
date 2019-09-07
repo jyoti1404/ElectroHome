@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.user.user.vieworders">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:textSize="20dp"
+        android:text="Your Orders"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="7">
+    <TextView
+        android:textColor="#000"
+        android:layout_weight="2.5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="All items"
+        android:textSize="14sp"
+        android:id="@+id/itemsselected"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:textColor="#000"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="No. of items"
+        android:textSize="14sp"
+        android:id="@+id/no_of_items"
+        android:layout_margin="10dp" />
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_weight="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:id="@+id/price1"
+        android:textSize="14sp"
+        android:textColor="#000" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview_yourorder">
+
+    </ListView>
+
+</LinearLayout>

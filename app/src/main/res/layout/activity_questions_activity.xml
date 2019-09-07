@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.user.help.questions_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_margin="8dp"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="How to book a service ?                  "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:id="@+id/question1"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:id="@+id/img1"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/question1"
+            android:src="@drawable/ic_navigate_next_black_24dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        >
+
+        <TextView
+            android:layout_weight="4"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="How to know if my \nrequest is confirmed ?"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:id="@+id/question2"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:id="@+id/img2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/question2"
+            android:src="@drawable/ic_navigate_next_black_24dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        >
+
+        <TextView
+            android:layout_weight="4"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="When will the Professionals\nreach for delevering service ?"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:id="@+id/question3"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:id="@+id/img3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/question3"
+            android:src="@drawable/ic_navigate_next_black_24dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_weight="4"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="How can I view my cart ?                "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:id="@+id/question4"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/question4"
+            android:id="@+id/img4"
+            android:src="@drawable/ic_navigate_next_black_24dp"/>
+    </LinearLayout>
+
+</LinearLayout>

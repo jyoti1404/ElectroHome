@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".activity.user.user.viewprofile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Your Profile"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/vpuser"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        app:civ_border_width="2dp"
+        android:src="@mipmap/ic_launcher_round"
+        app:civ_border_color="#FF000000">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:id="@+id/vpname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Name : "
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/vpmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Mobile no. : "
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/vpemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Email Address :  "
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#000" />
+
+
+    <TextView
+        android:id="@+id/vppassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#000" />
+</LinearLayout>

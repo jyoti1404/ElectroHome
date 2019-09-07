@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.user.help.guide_activity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ELECTROHOME"
+        android:id="@+id/textview"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ELECTROHOME is one stop destination for all electrical services. It helps to hire trusted professionals to get things done in just a single click
+In todays scenario, everyone is using android phones and they want all the facilities without any difficulty. Therefore, the solution for this problem is ELECTROHOME which provides all the facilities for repairing most of the electrical devices such as fan, tube lights, refrigerator, air conditioners etc. at home.
+Also instead of taking heavy electronic devices to the shop , The electrician will arrive in just a few minutes at your place.
+"
+        android:layout_margin="20dp"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+</LinearLayout>

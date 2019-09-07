@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.electrician">
+
+    <uses-permission android:name="android.permission.INTERNET " />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/electricianlogo"
+        android:label="ElectroHome"
+        android:roundIcon="@drawable/electricianlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.user.user.login_activity" />
+        <activity android:name=".activity.user.user.dashboard" />
+        <activity android:name=".activity.user.splash_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+        <activity android:name=".activity.user.user.register_activity" />
+        <activity android:name=".activity.user.services.service_activity" />
+        <activity android:name=".activity.user.user.viewprofile" />
+        <activity android:name=".activity.user.user.changepassword" />
+        <activity android:name=".activity.user.user.aboutus" />
+        <activity android:name=".activity.user.repairs.repair_activity" />
+        <activity android:name=".activity.user.Cart.finalcart_activity" />
+        <activity android:name=".activity.user.help.help_activity" />
+        <activity android:name=".activity.user.feedback.feedback_activity" />
+        <activity android:name=".activity.user.pcservices.pcservices_activty" />
+        <activity android:name=".activity.user.services.acservice_activity" />
+        <activity android:name=".activity.user.services.coolerservice_activity" />
+        <activity android:name=".activity.user.services.roservice_activity" />
+        <activity android:name=".activity.user.services.kitchenappliances_activity" />
+        <activity android:name=".activity.user.repairs.fan_activity" />
+        <activity android:name=".activity.user.repairs.lights_activity" />
+        <activity android:name=".activity.user.repairs.switchsockets_activity" />
+        <activity android:name=".activity.user.repairs.mcbfuse_activity" />
+        <activity android:name=".activity.user.repairs.geyser_activity" />
+        <activity android:name=".activity.user.repairs.tv_activity" />
+        <activity android:name=".activity.user.repairs.fridge_activity" />
+        <activity android:name=".activity.user.repairs.washingmachine_activity" />
+        <activity android:name=".activity.user.repairs.acrepair_activity" />
+        <activity android:name=".activity.user.pcservices.pcchecking_activity" />
+        <activity android:name=".activity.user.pcservices.pcrepair_activity" />
+        <activity android:name=".activity.user.pcservices.antivirus_activity" />
+        <activity android:name=".activity.user.panel_activity" />
+        <activity android:name=".activity.user.electrician.elogin_activity" />
+        <activity android:name=".activity.user.electrician.eregister_activity" />
+        <activity android:name=".activity.user.user.cart_activity" />
+        <activity android:name=".activity.user.user.details_activity" />
+        <activity android:name=".activity.user.user.paying_activity" />
+        <activity android:name=".activity.user.user.success_activity" />
+        <activity android:name=".activity.user.electrician.edashboard_activity" />
+        <activity android:name=".activity.user.help.questions_activity" />
+        <activity android:name=".activity.user.help.ans1_activity" />
+        <activity android:name=".activity.user.help.ans2_activity" />
+        <activity android:name=".activity.user.help.ans3_activity" />
+        <activity android:name=".activity.user.help.ans4_activity" />
+        <activity android:name=".activity.user.help.payques_activity" />
+        <activity android:name=".activity.user.help.guide_activity" />
+        <activity android:name=".activity.user.electrician.eviewprofile" />
+        <activity android:name=".activity.user.electrician.echangepassword" />
+        <activity android:name=".activity.user.user.vieworders" />
+        <activity android:name=".activity.user.electrician.eviewrequests"></activity>
+    </application>
+
+</manifest>

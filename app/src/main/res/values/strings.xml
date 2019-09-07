@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">electrician</string>
+    <string name="title_activity_service_activity">service_activity</string>
+    <string name="title_activity_details_activity">details_activity</string>
+</resources>
